@@ -1,0 +1,183 @@
+\documentclass[letterpaper,12pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome}
+\input{glyphtounicode}
+
+% Font Options
+\usepackage[sfdefault]{sourcesanspro}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.7in}
+\addtolength{\evensidemargin}{-0.7in}
+\addtolength{\textwidth}{1.4in}
+\addtolength{\topmargin}{-0.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generated PDF is machine-readable/ATS parsable
+\pdfgentounicode=1
+
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeEducationHeading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeOrganizationHeading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{\small #2} \\
+      \textit{\small#3}
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+% Resume Starts Here
+
+\begin{document}
+
+%---------- HEADING ----------
+\begin{center}
+    \textbf{\Huge \scshape Sudhanshu Jha} \\ \vspace{3pt}
+    \small
+    \faMobile \hspace{.5pt} \href{tel:9870470738}{+91 9870470738}
+    $|$
+    \faAt \hspace{.5pt} \href{mailto:jha.sudhanshu28@gmail.com}{jha.sudhanshu28@gmail.com}
+    $|$
+    \faLinkedinSquare \hspace{.5pt} \href{https://www.linkedin.com/in/sudhanshu-jha28/}{sudhanshu-jha}
+    $|$
+    \faGithub \hspace{.5pt} \href{https://github.com/Sud-7}{Sud-7}
+    $|$
+    \faMapMarker \hspace{.5pt} Noida, U.P., India
+\end{center}
+
+%----------- WORK EXPERIENCE -----------
+\section{Work Experience}
+  \vspace{3pt}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {UST Global}{Noida, India}
+      {Associate - I, Cloud Infrastructure Services}{Apr 2023 -- Apr 2024}
+        \resumeItemListStart
+            \resumeItem{Developed and implemented a sophisticated chatbot application, serving as a pivotal tool for client organizations to efficiently address technical issues among their employees.}
+            \resumeItem{Collaborated with a team of developers and product managers to design, develop, and maintain the chatbot.}
+            \resumeItem{Implemented reusable React components and libraries, enhancing code modularity and improving development efficiency.}
+            \resumeItem{Worked closely with the design team to ensure accurate implementation of UI/UX designs and maintained a consistent visual aesthetic across the platform.}
+            \resumeItem{Integrated RESTful APIs and services into the React.js application, facilitating data retrieval and enabling communication with the backend.}
+            \resumeItem{Collaborated with the QA team to develop and execute comprehensive test plans, ensuring the stability and reliability of the React.js application.}
+            \resumeItem{Utilized bug tracking and project management tools like JIRA to track and resolve issues efficiently.}
+        \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%----------- EDUCATION -----------
+\section{Education}
+  \vspace{3pt}
+  \resumeSubHeadingListStart
+    \resumeEducationHeading
+      {Amity Institute of Technology}{Noida, India}
+      {B.Tech.; \textbf{GPA: 7.3/10}}{Jul 2017 -- Jun 2021}
+    \resumeEducationHeading
+      {Vanasthali Public School}{Noida, India}
+      {High School; \textbf{Percentage: 73\%}}{Apr 2016 -- Mar 2017}
+  \resumeSubHeadingListEnd
+
+%----------- PROJECTS -----------
+\section{Projects}
+  \vspace{3pt}
+  \resumeSubHeadingListStart
+    \resumeProjectHeading
+      {\textbf{Chat-Bot Application}}{2023}
+        \resumeItemListStart
+            \resumeItem{Developed a responsive chatbot application using React, incorporating natural language processing (NLP) techniques to enable conversational interactions.}
+            \resumeItem{Implemented a front-end interface using React components to display chat messages and user interactions.}
+            \resumeItem{Designed a user-friendly UI with interactive elements for sending messages, displaying chat history, and managing conversational flow.}
+        \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{Flight Dynamics Simulation}}{2021}
+        \resumeItemListStart
+            \resumeItem{Developed a simplified flight dynamics model using coding to simulate aircraft behavior based on aerodynamics and performance principles. Implemented equations for lift, drag, thrust, and weight to analyze aircraft performance during different flight phases.}
+            \resumeItem{Developed a user-friendly interface in MATLAB to input aircraft specifications and environmental conditions. Calculated key performance metrics including take-off distance, climb rate, maximum range, and fuel consumption based on the provided inputs.}
+        \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%----------- SKILLS -----------
+\section{Skills}
+  \vspace{2pt}
+  \resumeSubHeadingListStart
+    \item{
+        \textbf{Programming:}{ JavaScript, Python, HTML5, CSS3} \\
+        \textbf{Database:}{ MongoDB} \\
+        \textbf{Frameworks:}{ ReactJS, ExpressJS, TailwindCSS} \\
+        \textbf{Operating Systems:}{ Windows, Linux, Mac} \\
+        \textbf{Developer Tools:}{ VS Code, Git, GitHub} \\
+        \textbf{Languages:}{ Hindi (Native), English (Professional)}
+    }
+  \resumeSubHeadingListEnd
+
+\end{document}
