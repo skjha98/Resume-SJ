@@ -23,11 +23,15 @@
 \renewcommand{\footrulewidth}{0pt}
 
 % Adjust margins
+% Adjust margins
 \addtolength{\oddsidemargin}{-0.7in}
 \addtolength{\evensidemargin}{-0.7in}
 \addtolength{\textwidth}{1.4in}
 \addtolength{\topmargin}{-0.7in}
 \addtolength{\textheight}{1.4in}
+
+\addtolength{\footskip}{0.2in}    % Adds space at the bottom equivalent to the top margin
+
 
 \urlstyle{same}
 
@@ -120,6 +124,8 @@
 \section{Work Experience}
   \vspace{3pt}
   \resumeSubHeadingListStart
+
+  
     \resumeSubheading
       {UST Global}{Noida, India}
       {Associate - I, Cloud Infrastructure Services}{Apr 2023 -- Apr 2024}
@@ -127,16 +133,70 @@
             \resumeItem{Developed and implemented a sophisticated chatbot application, serving as a pivotal tool for client organizations to efficiently address technical issues among their employees.}
             \resumeItem{Collaborated with a team of developers and product managers to design, develop, and maintain the chatbot.}
             \resumeItem{Implemented reusable React components and libraries, enhancing code modularity and improving development efficiency.}
-            \resumeItem{Worked closely with the design team to ensure accurate implementation of UI/UX designs and maintained a consistent visual aesthetic across the platform.}
-            \resumeItem{Integrated RESTful APIs and services into the React.js application, facilitating data retrieval and enabling communication with the backend.}
-            \resumeItem{Collaborated with the QA team to develop and execute comprehensive test plans, ensuring the stability and reliability of the React.js application.}
-            \resumeItem{Utilized bug tracking and project management tools like JIRA to track and resolve issues efficiently.}
+            \resumeItem{Ensured accurate implementation of UI/UX designs and maintained a consistent visual aesthetic by closely collaborating with the design team.}
+            \resumeItem{Integrated RESTful APIs for backend communication and worked with QA to develop and execute test plans, ensuring application stability and reliability.}
+           
         \resumeItemListEnd
   \resumeSubHeadingListEnd
 
+
+
+%----------- PROJECTS -----------
+\section{Projects}
+  \vspace{3pt}
+  \resumeSubHeadingListStart
+
+
+    \resumeProjectHeading
+      {\textbf{Food Delivery App (Zomato Clone)} \textbf{- (NextJS, MongoDB, Redux-toolkit) }}{2024}
+        \resumeItemListStart
+            \resumeItem{Developed a full-featured food delivery app, allowing users to register, authenticate, and manage their restaurants, including adding food items to their respective pages, with data stored in MongoDB.}
+            \resumeItem{Implemented secure login and authentication mechanisms, ensuring user data integrity and controlled access to restaurant management features.
+}
+            \resumeItem{Designed an intuitive landing page with a robust search functionality, improving user engagement and ease of navigation.}
+\resumeItem{Utilized NextJS for building a responsive and scalable application, optimized for seamless performance across devices.}
+            \resumeItem{Deployed: \href{https://zomato-clone-next-js.vercel.app}{zomato-clone-next-js.vercel.app}} 
+            \resumeItem{{CodeBase: \href{https://github.com/Sud-7/Zomato-clone-NextJS}{github.com/Sud-7/Zomato-clone-NextJS}}}
+        \resumeItemListEnd
+
+    
+    \resumeProjectHeading
+      {\textbf{User Add Todo}  \textbf {- (NextJS, Redux-Toolkit with Local Storage Persistence, MongoDB) }} {2024}
+        \resumeItemListStart
+            \resumeItem{Developed a dynamic Todo application using NextJS, implementing full CRUD operations connected to MongoDB for robust backend data management.}
+            \resumeItem{Employed Redux Toolkit for state management, ensuring efficient and scalable handling of application state.}
+            \resumeItem{Integrated Local Storage for persistent state across sessions, enhancing user experience by retaining data locally.}
+\resumeItem{Maintained a clean and modular codebase, utilizing Git for version control to support continuous development and collaboration.}
+            \resumeItem{Deployed: \href{https://next-redux-basic.vercel.app/}{next-redux-basic.vercel.app/}}
+            \resumeItem{CodeBase: \href{https://github.com/Sud-7/Next-redux-basic}{github.com/Sud-7/Next-redux-basic}}
+        \resumeItemListEnd
+    
+    \resumeProjectHeading
+      {\textbf{Counter App}  \textbf {- (ReactJS, Redux-Toolkit with Local Storage Persistence) }}{2024}
+        \resumeItemListStart
+            \resumeItem{Developed a responsive web application with ReactJS, leveraging Redux Toolkit for efficient state management.}
+            \resumeItem{Integrated data persistence using Local Storage to ensure state retention across user sessions.}
+            \resumeItem{Implemented robust functionalities for managing application state, including adding, updating, and deleting data entries.}
+            \resumeItem{Deployed: \href{https://redux-counter-app-beta.vercel.app/}{redux-counter-app-beta.vercel.app/}}
+            \resumeItem{CodeBase: \href{https://github.com/Sud-7/redux-counter-app}{github.com/Sud-7/redux-counter-app}}
+        \resumeItemListEnd
+    
+    \resumeProjectHeading
+      {\textbf{Capticon - Add captions to videos} \textbf{- (ReactJS,TailwindCSS)}}{2024}
+        \resumeItemListStart
+            \resumeItem{Built a dynamic web application that allows users to input captions with timestamps and synchronize them with video playback.}
+            \resumeItem{Implemented key functionalities for adding, validating, and removing caption entries with Timestamp using React.}
+            \resumeItem{Integrated video playback functionality with synchronized caption display.}
+            \resumeItem{Used Git for version control, maintaining a well-documented codebase and facilitating collaborative development.}
+           
+            \resumeItem{Deployed: \href{https://capticoninator.web.app/}{capticoninator.web.app}}
+            \resumeItem{CodeBase: \href{https://github.com/Sud-7/Capticon}{github.com/Sud-7/Capticon}}
+        \resumeItemListEnd
+
+
 %----------- EDUCATION -----------
 \section{Education}
-  \vspace{3pt}
+  \vspace{1pt}
   \resumeSubHeadingListStart
     \resumeEducationHeading
       {Amity Institute of Technology}{Noida, India}
@@ -146,70 +206,15 @@
       {High School; \textbf{Percentage: 73\%}}{Apr 2016 -- Mar 2017}
   \resumeSubHeadingListEnd
 
-%----------- PORTFOLIO -----------
-\section{Portfolio}
-  \vspace{1pt}
-  \resumeSubHeadingListStart
-    \item Find the latest project I'm working on
-    {\textbf{\href{https://sj-portfolio-tech.web.app}{\normalsize{https://sj-portfolio-tech.web.app}}}}
-  \resumeSubHeadingListEnd
-
-  
-%----------- PROJECTS -----------
-\section{Projects}
-  \vspace{3pt}
-  \resumeSubHeadingListStart
-    \resumeProjectHeading
-      {\textbf{Capticon - Add captions to videos}}{2024}
-        \resumeItemListStart
-            \resumeItem{Built a dynamic web application that allows users to input captions with timestamps and synchronize them with video playback.}
-            \resumeItem{Implemented key functionalities for adding, validating, and removing caption entries with Timestamp using React.}
-            \resumeItem{Integrated video playback functionality with synchronized caption display.}
-            \resumeItem{Used Git for version control, maintaining a well-documented codebase and facilitating collaborative development.}
-            \resumeItem{Deployed the application on Firebase, implementing CI/CD practices for continuous integration and deployment.}
-            \resumeItem{Deployed: \href{https://capticoninator.web.app/}{https://capticoninator.web.app}}
-            \resumeItem{CodeBase: \href{https://github.com/Sud-7/Capticon}{https://github.com/Sud-7/Capticon}}
-        \resumeItemListEnd
-  
-    \resumeProjectHeading
-      {\textbf{Weather fetching Application}}{2024}
-        \resumeItemListStart
-            \resumeItem{Developed a ReactJS application to fetch and display real-time weather data using the OpenWeatherMap API.}
-            \resumeItem{Built a dynamic, responsive user interface with React components and TailwindCSS, ensuring a seamless user experience across devices.}
-            \resumeItem{Utilized React Hooks for efficient state management and asynchronous data handling.}
-            \resumeItem{Deployed the application on Firebase, implementing CI/CD practices for continuous integration and deployment}
-            \resumeItem{Deployed: \href{https://react-weather-d1d32.web.app}{https://react-weather-d1d32.web.app}}
-            \resumeItem{CodeBase: \href{https://github.com/Sud-7/React_Weather}{https://github.com/Sud-7/React\_Weather}}
-        \resumeItemListEnd
-        
-    \resumeProjectHeading
-      {\textbf{Chat-Bot Application}}{2023}
-        \resumeItemListStart
-            \resumeItem{Developed a responsive chatbot application using React, incorporating natural language processing (NLP) techniques to enable conversational interactions.}
-            \resumeItem{Implemented a front-end interface using React components to display chat messages and user interactions.}
-            \resumeItem{Designed a user-friendly UI with interactive elements for sending messages, displaying chat history, and managing conversational flow.}
-        \resumeItemListEnd
-        
-    \resumeProjectHeading
-      {\textbf{Flight Dynamics Simulation}}{2021}
-        \resumeItemListStart
-            \resumeItem{Developed a flight dynamics model using coding to simulate aerodynamic principles. Implemented equations for lift, drag, thrust, and weight to analyze aircraft performance across flight phases.}
-        \resumeItemListEnd
-  \resumeSubHeadingListEnd
-
 %----------- SKILLS -----------
 \section{Skills}
   \vspace{2pt}
   \resumeSubHeadingListStart
     \item{
-        \textbf{Programming:}{ Typescript, JavaScript, Python, HTML5, CSS3} \\
-        \textbf{Database:}{ MongoDB} \\
-        \textbf{Frameworks:}{ NextJS, ReactJS, NodeJS, Bootstrap, ExpressJS, TailwindCSS} \\
-        \textbf{Libraries:}{ Redux-toolkit (state management), axios, react-router, zod(auth)} \\
-        \textbf{Tools:}{ Babel, Webpack, NPM} \\
-        \textbf{Developer Tools:}{ VScode, Git, GitHub} \\
-        \textbf{Backend:}{ Firebase} \\
-        
+        \textbf{Frameworks:}{ NextJS, Redux-toolkit(library), ReactJS, NodeJS, Bootstrap, ExpressJS, TailwindCSS, react-router} \\
+        \textbf{Programming:}{ TypeScript, JavaScript, Python, HTML5, CSS3} \\
+        \textbf{Database:}{ MongoDB, PostgresSQL} \\
+        \textbf{Tools:}{ Babel, Firebase, NPM, pip,  VScode, GitHub, Vercel} \\
     }
   \resumeSubHeadingListEnd
 
