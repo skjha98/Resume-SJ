@@ -1,4 +1,4 @@
-\documentclass[letterpaper,12pt]{article}
+\documentclass[letterpaper,10pt]{article}
 
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
@@ -75,7 +75,7 @@
 
 \newcommand{\resumeProjectHeading}[2]{
     \vspace{-2pt}\item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \small#1 & #2 \\
     \end{tabular*}\vspace{-7pt}
 }
@@ -146,10 +146,42 @@
       {High School; \textbf{Percentage: 73\%}}{Apr 2016 -- Mar 2017}
   \resumeSubHeadingListEnd
 
+%----------- PORTFOLIO -----------
+\section{Portfolio}
+  \vspace{1pt}
+  \resumeSubHeadingListStart
+    \item Find the latest project I'm working on
+    {\textbf{\href{https://sj-portfolio-tech.web.app}{\normalsize{https://sj-portfolio-tech.web.app}}}}
+  \resumeSubHeadingListEnd
+
+  
 %----------- PROJECTS -----------
 \section{Projects}
   \vspace{3pt}
   \resumeSubHeadingListStart
+    \resumeProjectHeading
+      {\textbf{Capticon - Add captions to videos}}{2024}
+        \resumeItemListStart
+            \resumeItem{Built a dynamic web application that allows users to input captions with timestamps and synchronize them with video playback.}
+            \resumeItem{Implemented key functionalities for adding, validating, and removing caption entries with Timestamp using React.}
+            \resumeItem{Integrated video playback functionality with synchronized caption display.}
+            \resumeItem{Used Git for version control, maintaining a well-documented codebase and facilitating collaborative development.}
+            \resumeItem{Deployed the application on Firebase, implementing CI/CD practices for continuous integration and deployment.}
+            \resumeItem{Deployed: \href{https://capticoninator.web.app/}{https://capticoninator.web.app}}
+            \resumeItem{CodeBase: \href{https://github.com/Sud-7/Capticon}{https://github.com/Sud-7/Capticon}}
+        \resumeItemListEnd
+  
+    \resumeProjectHeading
+      {\textbf{Weather fetching Application}}{2024}
+        \resumeItemListStart
+            \resumeItem{Developed a ReactJS application to fetch and display real-time weather data using the OpenWeatherMap API.}
+            \resumeItem{Built a dynamic, responsive user interface with React components and TailwindCSS, ensuring a seamless user experience across devices.}
+            \resumeItem{Utilized React Hooks for efficient state management and asynchronous data handling.}
+            \resumeItem{Deployed the application on Firebase, implementing CI/CD practices for continuous integration and deployment}
+            \resumeItem{Deployed: \href{https://react-weather-d1d32.web.app}{https://react-weather-d1d32.web.app}}
+            \resumeItem{CodeBase: \href{https://github.com/Sud-7/React_Weather}{https://github.com/Sud-7/React\_Weather}}
+        \resumeItemListEnd
+        
     \resumeProjectHeading
       {\textbf{Chat-Bot Application}}{2023}
         \resumeItemListStart
@@ -157,12 +189,11 @@
             \resumeItem{Implemented a front-end interface using React components to display chat messages and user interactions.}
             \resumeItem{Designed a user-friendly UI with interactive elements for sending messages, displaying chat history, and managing conversational flow.}
         \resumeItemListEnd
-
+        
     \resumeProjectHeading
       {\textbf{Flight Dynamics Simulation}}{2021}
         \resumeItemListStart
-            \resumeItem{Developed a simplified flight dynamics model using coding to simulate aircraft behavior based on aerodynamics and performance principles. Implemented equations for lift, drag, thrust, and weight to analyze aircraft performance during different flight phases.}
-            \resumeItem{Developed a user-friendly interface in MATLAB to input aircraft specifications and environmental conditions. Calculated key performance metrics including take-off distance, climb rate, maximum range, and fuel consumption based on the provided inputs.}
+            \resumeItem{Developed a flight dynamics model using coding to simulate aerodynamic principles. Implemented equations for lift, drag, thrust, and weight to analyze aircraft performance across flight phases.}
         \resumeItemListEnd
   \resumeSubHeadingListEnd
 
@@ -171,12 +202,14 @@
   \vspace{2pt}
   \resumeSubHeadingListStart
     \item{
-        \textbf{Programming:}{ JavaScript, Python, HTML5, CSS3} \\
+        \textbf{Programming:}{ Typescript, JavaScript, Python, HTML5, CSS3} \\
         \textbf{Database:}{ MongoDB} \\
-        \textbf{Frameworks:}{ ReactJS, ExpressJS, TailwindCSS} \\
-        \textbf{Operating Systems:}{ Windows, Linux, Mac} \\
-        \textbf{Developer Tools:}{ VS Code, Git, GitHub} \\
-        \textbf{Languages:}{ Hindi (Native), English (Professional)}
+        \textbf{Frameworks:}{ NextJS, ReactJS, NodeJS, Bootstrap, ExpressJS, TailwindCSS} \\
+        \textbf{Libraries:}{ Redux-toolkit (state management), axios, react-router, zod(auth)} \\
+        \textbf{Tools:}{ Babel, Webpack, NPM} \\
+        \textbf{Developer Tools:}{ VScode, Git, GitHub} \\
+        \textbf{Backend:}{ Firebase} \\
+        
     }
   \resumeSubHeadingListEnd
 
